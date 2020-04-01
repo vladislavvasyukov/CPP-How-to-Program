@@ -6,8 +6,6 @@ int main()
 	int total_miles = 0;
 	int total_gallons = 0;
 
-	
-
 	while (true)
 	{
 		int miles; 
@@ -20,7 +18,7 @@ int main()
 			break;
 
 		cout << "Enter gallons used:";
-		cin >> gallons;
+	    cin >> gallons;
 
 		cout << "MPG this trip: " << miles / float(gallons) << endl;
 		total_miles += miles;
